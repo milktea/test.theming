@@ -14,6 +14,32 @@
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression="request/HTTP_X_THEME_ENABLED|nothing"/>
 
+<stylesheet title=""
+        id="++theme++test.theming/css/skel-noscript.css"
+        media="screen" rel="stylesheet" rendering="import"
+        cacheable="True" compression="safe" cookable="True"
+        enabled="1" expression="not: request/HTTP_X_THEME_ENABLED | nothing"/>
+
+<stylesheet title=""
+        id="++theme++test.theming/css/style-1000px.css"
+        media="screen" rel="stylesheet" rendering="import"
+        cacheable="True" compression="safe" cookable="True"
+        enabled="1" expression="not: request/HTTP_X_THEME_ENABLED | nothing"/>
+
+<stylesheet title=""
+        id="++theme++test.theming/css/style-desktop.css"
+        media="screen" rel="stylesheet" rendering="import"
+        cacheable="True" compression="safe" cookable="True"
+        enabled="1" expression="not: request/HTTP_X_THEME_ENABLED | nothing"/>
+
+<stylesheet title=""
+        id="++theme++test.theming/css/style-mobile.css"
+        media="screen" rel="stylesheet" rendering="import"
+        cacheable="True" compression="safe" cookable="True"
+        enabled="1" expression="not: request/HTTP_X_THEME_ENABLED | nothing"/>
+
+
+
     <!-- -*- extra stuff goes here -*- -->
 
 </object>
